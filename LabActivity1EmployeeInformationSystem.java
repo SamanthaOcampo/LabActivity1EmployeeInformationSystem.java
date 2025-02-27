@@ -8,16 +8,16 @@ public class EmployeeInformationSystem { // Class Declaration
         String firstName = scanner.nextLine(); // Declaring the variable
 
         System.out.print("Enter your last name: "); // Prompting user input for last name and storing it in lastName
-        String lastName = scanner.nextLine();
+        String lastName = scanner.nextLine(); // Declaring the variable
 
         System.out.print("Enter your age: "); // Prompting user input for age and storing it in employeeAge
-        int employeeAge = scanner.nextInt();
+        int employeeAge = scanner.nextInt(); // Declaring the variable
 
         System.out.print("Enter hours worked: "); // Prompting user input for hours worked and storing it in hoursWorked
-        double hoursWorked = scanner.nextDouble();
+        double hoursWorked = scanner.nextDouble(); // Declaring the variable
 
         System.out.print("Enter hourly wage: "); // Prompting user input for hourly wage and storing it in hourlyWage
-        double hourlyWage = scanner.nextDouble();
+        double hourlyWage = scanner.nextDouble(); // Declaring the variable
 
         double dailySalary = hoursWorked * hourlyWage; // Calculating the employee's daily salary by performing arithmetic operation (Multiplication)
 
