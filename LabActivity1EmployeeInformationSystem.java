@@ -1,6 +1,6 @@
 import java.util.Scanner; // Includes the scanner class from the java.util package
 
-public class EmployeeInformationSystem { // Class Declaration
+public class LabActivity1EmployeeInformationSystem { // Class Declaration
     public static void main(String[] args) { // Main Method
         Scanner scanner = new Scanner(System.in); // Creating a Scanner object to read user input
 
